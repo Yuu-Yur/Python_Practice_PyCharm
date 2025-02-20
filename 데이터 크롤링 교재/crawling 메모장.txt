@@ -1,0 +1,8 @@
+정적 웹 크롤링
+BeautifulSoup 라이브러리 활용해 html 파싱
+HTML, XML 파일에서 데이터 추출하는 라이브러리
+html.parser , lxml , 등등의 parser 를 이용 추가적 설치 가능
+1. import
+2. html 문서와 parser를 지정해서 함수 호출
+bs = BeautifulSoup(html_doc,'html.parser')
+3. bs 의 타입이 DOM 객체
